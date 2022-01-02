@@ -1,3 +1,27 @@
+# Netflix-2.0-using-React-Js-and-Material-Ui
+
+## Building Blocks
+  
+    TheMovieDb Api
+    React Hooks
+    Material Ui
+    Plain Css
+The Project Looks as Follows
+# 
+
+![First Image](./demonstration/one.JPG) 
+
+![Second Image](./demonstration/two.JPG) 
+
+
+For illustration video. head over to issues tab and view the 
+### Project illustration Video in Issues Tab
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
