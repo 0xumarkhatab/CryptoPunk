@@ -1,0 +1,119 @@
+.mainPunk {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+}
+
+.mainPunk > img {
+  height: 25vw;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.punk__information > .punk__details > p:hover,
+.mainPunk > img:hover,
+.socialMedia > .MuiSvgIcon-root:hover,
+.owner__info:hover {
+  cursor: pointer !important;
+}
+.punk__information > .punk__details > p:active .mainPunk > img:active,
+.socialMedia > .MuiSvgIcon-root:active,
+.owner__info > img:active {
+  cursor: default !important;
+}
+
+.punk__details {
+  color: white;
+  display: flex;
+}
+.punk__information > .punk__details > p {
+  font-weight: 900;
+  font-size: 5vw;
+  user-select: none;
+}
+
+.punk__priceContainer {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.punk__priceContainer > img {
+  height: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.owner__info {
+  margin-top: 5%;
+  display: flex;
+  color: white;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+
+  text-transform: capitalize;
+}
+.owner__info > img {
+  height: 50px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.owner__adress > p {
+  font-size: medium;
+}
+.owner__adress > p > a {
+  color: rgb(187, 187, 187);
+}
+.punk__priceContainer > .action__buttons {
+  display: flex;
+  margin-left: 5%;
+}
+button.redButton {
+  padding: 15px 30px;
+  background-color: red;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: white;
+  user-select: none;
+  font-weight: 600;
+}
+button.greenButton {
+  padding: 15px 30px;
+  background-color: green;
+  border-radius: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: white;
+  user-select: none;
+  font-weight: 600;
+}
+button.redButton:hover,
+button.greenButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, #051a11, #51615f);
+}
+.socialMedia {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.socialMedia > .MuiSvgIcon-root {
+  font-size: 30px !important;
+
+  margin-left: 20px;
+  padding: 10px;
+  background-color: rgb(58, 58, 58);
+  border-radius: 50%;
+  color: white !important;
+  background: linear-gradient(to right, rgb(207, 166, 173), rgb(128, 52, 111));
+}
+.socialMedia > .MuiSvgIcon-root:active {
+  background: linear-gradient(to right, rgb(138, 45, 60), rgb(56, 63, 124));
+}

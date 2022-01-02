@@ -1,0 +1,8 @@
+.collectionCardList {
+  display: flex;
+  overflow: scroll;
+}
+
+.collectionCardList::-webkit-scrollbar {
+  display: none;
+}

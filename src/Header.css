@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  width: 100vw;
+}
+
+.logoContainer > img {
+  height: max(6vh, 7vw);
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.logoContainer > img:hover {
+  cursor: pointer;
+}
+.logoContainer > img:active {
+  cursor: default;
+}
+.searchInput {
+  display: flex;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  flex: 0.8;
+  min-width: 70px;
+}
+.searchInput > input {
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+  background-color: transparent;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerItems > p {
+  margin-left: 15px;
+}
+.headerItems > p:hover {
+  cursor: pointer;
+}
+.headerItems > p:active {
+  cursor: default;
+}
+
+.headerButtons {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.themeSwitcher {
+  background-color: #1c1c1e;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  height: 20px;
+  padding: 15px;
+}
+.themeSwitcher:hover {
+  cursor: pointer;
+  background-color: #2a2a2b;
+}
+.themeSwitcher:active {
+  cursor: default;
+  background-color: #171718;
+}
+
+.themeSwitcher > img {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+.loginButton {
+  padding: 15px 30px;
+  background: linear-gradient(to right, #59f9b7, #66feea);
+  border-radius: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: black;
+  user-select: none;
+  font-weight: 500;
+}
+.loginButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, #59f9b7, #66feea);
+}
+.loginButton:active {
+  cursor: default;
+
+  background: linear-gradient(to left, #59f9de, #66a3fe);
+}
